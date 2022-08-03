@@ -6,6 +6,10 @@ Usage example
 
 ```php
 <?php
+require("mysql.class.php");
+require("config.class.php");
+require("widget.class.php");
+
 // Some object ID that represents the primary key of the object in the database
 $id = 123;
 
