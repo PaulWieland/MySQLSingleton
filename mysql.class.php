@@ -1,4 +1,8 @@
 <?php
+/*
+ * Copyright (C) 2007  Paul Wieland 
+ */
+
 class MySQL_singleton{
 	private static $_instance;
 	protected $_link;
